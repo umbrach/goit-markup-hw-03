@@ -20,8 +20,17 @@ body {
 }
 
 ul {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
 
 /* Page header */
 
@@ -88,9 +97,21 @@ ul {
     color: var(--accent-color);
 }
 
+
 /* Main sections */
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.features {
+    padding-bottom: 0;
+}
+
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -101,9 +122,12 @@ ul {
 
 .hero {
     background-color: #2F303A;
+    text-align: center;
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -115,6 +139,8 @@ ul {
 /* Features */
 
 .feature-list .title {
+    margin-top: 0;
+    margin-bottom: 10px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -123,6 +149,8 @@ ul {
 }
 
 .feature-list .text {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.71;
@@ -131,6 +159,8 @@ ul {
 /* Our Team */
 
 .team-list .title {
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -138,6 +168,8 @@ ul {
 }
 
 .team-list .text {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.19;
