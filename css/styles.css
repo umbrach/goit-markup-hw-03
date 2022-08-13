@@ -207,6 +207,11 @@ ul {
     color: var(--accent-color);
 }
 
+.footer-link {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
 
 /* Portfolio Page */
 
@@ -254,15 +259,23 @@ ul {
 /* Work Examples */
 
 .work-examples .text {
+    margin-top: 0;
+    margin-bottom: 20px;
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.87;
 }
 
 .work-examples .work-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+
+.card {
+    margin-bottom: 30px;
 }
