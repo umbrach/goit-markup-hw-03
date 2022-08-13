@@ -11,25 +11,28 @@
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">    
     <link rel="stylesheet" href="./css/styles.css">
-    
 </head>
 <body>
     <!-- Header -->
     <header class="page-header">
-        <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
-        
-        <nav>
-            <ul class="site-nav">
-                <li><a href="./index.html" class="link current">Студія</a></li>
-                <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                <li><a href="Контакти" class="link">Контакти</a></li>
-            </ul>
-        </nav>
 
-        <ul class="auth-nav">
-            <li><a href="maito:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link">+38096 111 11 11</a></li>
-        </ul>
+        <div class="container">
+            <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
+            
+            <nav>
+                <ul class="site-nav list">
+                    <li><a href="./index.html" class="link current">Студія</a></li>
+                    <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+                    <li><a href="Контакти" class="link">Контакти</a></li>
+                </ul>
+            </nav>
+            
+            <ul class="auth-nav list">
+                <li><a href="maito:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link">+38096 111 11 11</a></li>
+            </ul>
+        </div>
+        
     </header>
 
     <!-- Main section -->
@@ -37,75 +40,83 @@
 
         <!--Hero-->
         <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="button primary-hero">Замовити послугу</button>
+            <div class="container">
+                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+                <button type="button" class="button primary-hero">Замовити послугу</button>
+            </div>
         </section>
 
         <!--Особливості-->
-        <section class="section">
-            <h2 class="section-title">Переваги</h2>
-
-            <ul class="feature-list">
-                <li>
-                    <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-
-                <li>
-                    <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                </li>
-
-                <li>
-                    <h3 class="title">ПЛАНУВАННЯ</h3>
-                    <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-
-                <li>
-                    <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
+        <section class="section features">
+            <div class="container">
+                <!-- <h2 class="section-title">Переваги</h2> -->
+                
+                <ul class="feature-list">
+                    <li>
+                        <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </li>
+                
+                    <li>
+                        <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </li>
+                
+                    <li>
+                        <h3 class="title">ПЛАНУВАННЯ</h3>
+                        <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </li>
+                
+                    <li>
+                        <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!--Чим ми займаємося-->
         <section class="section">
-            <h2 class="section-title">Чим ми займаємося</h2>
-            <ul class="work-list">
-                <li><img src="images/img1.jpg" alt="Людина набирає текст на компьютері" width="370"></li>
-                <li><img src="images/img2.jpg" alt="Людина переглядає макети мобільного додатка на компьютері" width="370"></li>
-                <li><img src="images/img3.jpg" alt="Людина переглядає палітри кольорів на планшеті" width="370"></li>
-            </ul>
+            <div class="container">
+                <h2 class="section-title">Чим ми займаємося</h2>
+                <ul class="work-list">
+                    <li><img src="images/img1.jpg" alt="Людина набирає текст на компьютері" width="370" height="294"></li>
+                    <li><img src="images/img2.jpg" alt="Людина переглядає макети мобільного додатка на компьютері" width="370" height="294"></li>
+                    <li><img src="images/img3.jpg" alt="Людина переглядає палітри кольорів на планшеті" width="370" height="294"></li>
+                </ul>
+            </div>
         </section>
 
         <!--Наша команда-->
         <section class="section">
-            <h2 class="section-title">Наша команда</h2>
-            <ul class="team-list">
-                <li>
-                    <img src="images/img4.jpg" alt="Фото Ігор Дем'яненко" width="270">
-                    <h3 class="title">Ігор Дем'яненко</h3>
-                    <p class="text">Product Designer</p>
-                </li>
-
-                <li>
-                    <img src="images/img5.jpg" alt="Фото Ольга Рєпіна" width="270">
-                    <h3 class="title">Ольга Рєпіна</h3>
-                    <p class="text">Frontend Developer</p>
-                </li>
-
-                <li>
-                    <img src="images/img6.jpg" alt="Фото Микола Тарасов" width="270">
-                    <h3 class="title">Микола Тарасов</h3>
-                    <p class="text">Marketing</p>
-                </li>
-
-                <li>
-                    <img src="images/img7.jpg" alt="Фото Михайло Єрмаков" width="270">
-                    <h3 class="title">Михайло Єрмаков</h3>
-                    <p class="text">UI Designer</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+                <ul class="team-list">
+                    <li>
+                        <img src="images/img4.jpg" alt="Фото Ігор Дем'яненко" width="270" height="260">
+                        <h3 class="title">Ігор Дем'яненко</h3>
+                        <p class="text">Product Designer</p>
+                    </li>
+                
+                    <li>
+                        <img src="images/img5.jpg" alt="Фото Ольга Рєпіна" width="270" height="260">
+                        <h3 class="title">Ольга Рєпіна</h3>
+                        <p class="text">Frontend Developer</p>
+                    </li>
+                
+                    <li>
+                        <img src="images/img6.jpg" alt="Фото Микола Тарасов" width="270" height="260">
+                        <h3 class="title">Микола Тарасов</h3>
+                        <p class="text">Marketing</p>
+                    </li>
+                
+                    <li>
+                        <img src="images/img7.jpg" alt="Фото Михайло Єрмаков" width="270" height="260">
+                        <h3 class="title">Михайло Єрмаков</h3>
+                        <p class="text">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     </main>
