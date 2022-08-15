@@ -162,6 +162,10 @@ ul {
 
 /* Features */
 
+.section-title.feature-title {
+    display: none;
+}
+
 .feature-list {
     display: flex;
 }
@@ -291,9 +295,22 @@ ul {
 
 /* Portfolio Page */
 
+.section-title.portfolio-title {
+    display: none;
+}
+
 /* Filter buttons */
 
+.filter-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .button {
+    margin-right: 8px;
+    margin-bottom: 50px;
+
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     font-family: inherit;
@@ -334,6 +351,15 @@ ul {
 
 /* Work Examples */
 
+.work-examples {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-examples .card:nth-child(3n) {
+    margin-right: 0px;
+}
+
 .work-examples .text {
     margin-top: 0;
     margin-bottom: 20px;
@@ -353,5 +379,7 @@ ul {
 }
 
 .card {
-    border-bottom: 1px solid #EEEEEE;
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
