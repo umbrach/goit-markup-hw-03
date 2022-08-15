@@ -26,13 +26,23 @@ ul {
 }
 
 .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
 }
 
-
 /* Page header */
+
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     color: #000000;
@@ -63,6 +73,15 @@ ul {
 
 .logo:focus {
     color: var(--accent-color);
+}
+
+.site-nav {
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .item:not( :last-child) {
+    margin-right: 50px;
 }
 
 .site-nav .link {
@@ -97,16 +116,20 @@ ul {
     color: var(--accent-color);
 }
 
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.auth-nav .item:not( :last-child) {
+    margin-right: 50px;
+}
 
 /* Main sections */
 
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.section.features {
-    padding-bottom: 0;
 }
 
 .section-title {
@@ -116,6 +139,7 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    text-align: center;
    }
 
 /* Hero */
@@ -138,6 +162,18 @@ ul {
 
 /* Features */
 
+.feature-list {
+    display: flex;
+}
+
+.feature-list .item {
+    width: 270px;
+}
+
+.feature-list .item:not( :last-child) {
+    margin-right: 30px;
+}
+
 .feature-list .title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -156,11 +192,49 @@ ul {
     line-height: 1.71;
 }
 
+/* Job description */
+
+.section.work {
+    padding-top: 0;
+}
+
+.work-list {
+    display: flex;
+}
+
+.work-list .item:not( :last-child) {
+    margin-right: 30px;
+}
+
+
 /* Our Team */
 
+.item {
+    background-color: var(--primary-white-color);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    text-align: center;
+}
+
+.section.team {
+    background-color: #F5F4FA;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .team-list .title {
-    margin-top: 30px;
-    margin-bottom: 10px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -168,8 +242,6 @@ ul {
 }
 
 .team-list .text {
-    margin-top: 0;
-    margin-bottom: 30px;
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.19;
@@ -179,6 +251,11 @@ ul {
 
 .page-footer {
     background-color: #2F303A;
+}
+
+.contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address {
@@ -209,7 +286,6 @@ ul {
 
 .footer-link {
     padding-top: 20px;
-    padding-bottom: 60px;
 }
 
 
@@ -277,5 +353,5 @@ ul {
 }
 
 .card {
-    margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
 }
