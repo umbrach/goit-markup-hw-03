@@ -32,9 +32,13 @@ ul {
   margin-right: auto;
 }
 
+/* Main Page */
+
 /* Page header */
 
 .page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -318,14 +322,6 @@ ul {
   cursor: pointer;
 }
 
-.button.primary-filter {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-}
-
 .button.primary-hero {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -333,6 +329,14 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+}
+
+.button.primary-filter {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .button.secondary {
