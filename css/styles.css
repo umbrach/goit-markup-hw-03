@@ -325,6 +325,8 @@ ul {
   padding-bottom: 10px;
   padding-right: 32px;
   padding-left: 32px;
+  border: 0px;
+  border-radius: 4px;
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -335,6 +337,10 @@ ul {
 }
 
 .button.primary-filter {
+  padding: 6px 22px 6px 22px;
+  border: 0px;
+  border-radius: 4px;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 500;
@@ -344,6 +350,9 @@ ul {
 
 .button.secondary-filter {
   margin-left: 8px;
+  padding: 6px 25px 6px 25px;
+  border: 0px;
+  border-radius: 4px;
 
   color: var(--primary-text-color);
   background-color: #f5f4fa;
