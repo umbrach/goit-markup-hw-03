@@ -279,13 +279,8 @@ img {
   background-color: #2f303a;
 }
 
-.container.contact {
-  /* padding-top: 60px;
-  padding-bottom: 60px; */
-}
-
 .address {
-  margin-top: 20px;
+  padding-top: 20px;
 
   color: var(--primary-white-color);
   font-size: 14px;
@@ -402,14 +397,6 @@ img {
   line-height: 1.87;
 }
 
-/* .work-title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-} */
-
 .work-examples .work-title {
   margin-bottom: 4px;
   margin-top: 0px;
@@ -428,5 +415,8 @@ img {
 }
 
 .card-description {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 20px 24px 20px 24px;
 }
